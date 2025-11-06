@@ -110,12 +110,12 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                href: 'https://docusaurus.io/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunitat',
             items: [
               {
                 label: 'Stack Overflow',
@@ -132,7 +132,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Més',
             items: [
               {
                 label: 'Blog',
@@ -145,7 +145,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Raül Valls Aranda. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
